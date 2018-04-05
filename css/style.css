@@ -1,0 +1,188 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Greg Haney | @gregory_haney | 
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* 					{
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+						}
+
+.clear  {
+	clear: both;
+				}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+#header 		{
+	font-family: 'Lato', sans-serif;
+	font-size: 20pt;
+	color: black;
+						}
+
+#sub-header	{
+	font-family: 'Lato', sans-serif;
+	font-size: 10pt;
+	color: black;
+						}
+
+.container	{
+	background-image: url("../images/notebook.png");
+	width: 1000px;
+	margin: 0 auto;
+						}
+
+
+.description	{
+	font-family: 'Lato', sans-serif;
+ 	font-size: 10pt;
+}
+
+
+#body 	  	{
+ font-family: 'Lato', sans-serif;
+ font-size: 14pt;
+					 	}  
+
+
+#footer			{
+	font-family: 'Lato', sans-serif;
+	font-size: 12pt;
+	color: black;
+						}
+
+
+.line-separator		{
+	height: 1px;
+	background: #717171;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-bottom: 1px solid #313030;
+									}
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+#main 			{
+	float: left;
+	background-color: #bab3b2;
+	color: black;
+	width: 600px;
+	padding-left: 5px;
+						}
+
+
+.black			{
+	color: black;
+						}
+
+
+.orange			{
+	color: #F2691F;
+						}
+
+
+/*---------removes underlines in hyperlinks---------*/
+a           {											
+		text-decoration: none;
+						}
+
+
+.blue				{
+	color: blue;
+						}
+
+
+.month				{
+	padding: 15px;
+							}
+
+
+/*---------sets up and centers all image tags---------*/
+img 					{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto auto;
+							}
+
+
+
+/*----------------------------------------------------------------------------- 
+04=NAV  
+-----------------------------------------------------------------------------*/
+
+
+#nav-bar-cont 	{
+		background: red;
+		width: 1000px;
+		margin: 0 auto;
+								}
+
+
+
+nav ul li 	{
+	float: left;
+	list-style: none;
+						}
+
+
+nav ul li a 	{
+	color: black;
+	margin: 16px;
+	padding: 16px;
+	display: block;
+	font-size: 25px;
+							}
+
+nav ul li a:hover	{
+	color: yellow;
+	transition: color 0.3s ease-in;
+									}
+
+
+
+/*----------------------------------------------------------------------------- 
+05=RIGHT-SIDEBAR   
+-----------------------------------------------------------------------------*/
+#right-sidebar	{
+	float: right;
+	background-color: #bab3b2;
+	color: black;
+	width: 345px;
+	padding: 15px;
+								}
+
+
+
+/*---------sets up three parts of daily quote---------*/
+.AWAD_title			{
+	font-size: 14pt; 
+	color: #ae323b; 
+	font-weight: bold;
+								}
+
+
+.AWAD_quotation {
+	text-decoration: none; 
+	color: black;
+	font-size: 12px;
+								}
+
+
+.AWAD_byline 		{
+	font-style: italic;
+	color: black;
+	font-size: 8px;
+								}
